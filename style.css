@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.title ul{
+    display: flex;
+    list-style: none;
+    margin: 30px 5px;
+}
+.title ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: arial;
+}
+.title ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px ;
+}
